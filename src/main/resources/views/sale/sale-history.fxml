@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="20" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="io.smartpos.ui.sale.SaleHistoryController" styleClass="content-area">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20" />
+    </padding>
+
+    <HBox spacing="15" alignment="CENTER_LEFT">
+        <Label text="Sale History" styleClass="h1" />
+        <Region HBox.hgrow="ALWAYS" />
+        <DatePicker fx:id="startDatePicker" promptText="Start Date" />
+        <DatePicker fx:id="endDatePicker" promptText="End Date" />
+        <Button text="🔍 Filter" onAction="#handleFilter" styleClass="button-secondary" />
+        <Button text="🔄 Refresh" onAction="#loadRecentSales" styleClass="button-secondary" />
+    </HBox>
+
+    <TableView fx:id="saleTable" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="colId" text="ID" prefWidth="80" />
+            <TableColumn fx:id="colDate" text="Date" prefWidth="150" />
+            <TableColumn fx:id="colTotal" text="Total" prefWidth="100" />
+            <TableColumn fx:id="colStatus" text="Status" prefWidth="120" />
+            <TableColumn fx:id="colActions" text="Actions" prefWidth="150" />
+        </columns>
+        <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+        </columnResizePolicy>
+    </TableView>
+
+</VBox>

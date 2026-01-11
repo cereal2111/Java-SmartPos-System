@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+
+<VBox alignment="CENTER" spacing="20" style="-fx-background-color: #1e293b; -fx-padding: 40;"
+    xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="io.smartpos.ui.auth.LoginController">
+
+    <Label text="SmartPOS" style="-fx-text-fill: white; -fx-font-size: 32px; -fx-font-weight: bold;" />
+    <Label text="Log in to your account" style="-fx-text-fill: #94a3b8; -fx-font-size: 14px;" />
+
+    <VBox spacing="15" maxWidth="300"
+        style="-fx-background-color: white; -fx-padding: 30; -fx-background-radius: 12;">
+        <VBox spacing="5">
+            <Label text="Username" style="-fx-text-fill: #475569; -fx-font-weight: bold;" />
+            <TextField fx:id="usernameField" promptText="Enter your username"
+                style="-fx-padding: 10;" />
+        </VBox>
+
+        <VBox spacing="5">
+            <Label text="Password" style="-fx-text-fill: #475569; -fx-font-weight: bold;" />
+            <PasswordField fx:id="passwordField" promptText="••••••••" style="-fx-padding: 10;" />
+        </VBox>
+
+        <Button text="Sign In" onAction="#handleLogin" maxWidth="Infinity"
+            style="-fx-background-color: #4f46e5; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 12; -fx-background-radius: 6; -fx-cursor: hand;" />
+
+        <Label fx:id="errorLabel" style="-fx-text-fill: #ef4444; -fx-font-size: 12px;"
+            wrapText="true" />
+    </VBox>
+
+</VBox>
